@@ -5,6 +5,8 @@
 #include <imgui.h>
 #include <imgui_impl_sdl3.h>
 #include <stdexcept>
+#include <iostream>
+#include <sstream>
 
 Appl::Appl()
     : allocator(nullptr), instance(VK_NULL_HANDLE),
